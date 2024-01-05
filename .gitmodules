@@ -1,0 +1,4 @@
+[submodule "lxlung/public"]
+	path = lxlung/public
+	url = https://github.com/LxLung/LxLung.github.io.git
+	branch = main
