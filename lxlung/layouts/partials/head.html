@@ -9,8 +9,6 @@
 
 {{- /* Title */}}
 <title>{{ if .IsHome }}{{ else }}{{ if .Title }}{{ .Title }} | {{ end }}{{ end }}{{ site.Title }}</title>
-<link rel="icon" href="{{ .Site.BaseURL }}/sitelogo.ico" type="image/x-icon">
-<link rel="shortcut icon" href="{{ .Site.BaseURL }}/sitelogo.ico" type="image/x-icon">
 {{- /* Meta */}}
 {{- if .IsHome }}
 {{ with site.Params.keywords -}}<meta name="keywords" content="{{- range $i, $e := . }}{{ if $i }}, {{ end }}{{ $e }}{{ end }}">{{ end }}

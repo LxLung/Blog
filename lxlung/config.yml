@@ -4,6 +4,7 @@ title: LxLung
 theme: PaperMod
 
 params:
+  ShowCodeCopyButtons: true
   homeInfoParams:
     Title: 'Welcome Traveller'
     Content: 'Explore graphics, games, and greatness here'
@@ -16,6 +17,7 @@ params:
   ShowPostNavLinks: true
   assets:
     disableFingerprinting: true
+    favicon: "/sitelogo.ico"
 
 outputs:
   home:
